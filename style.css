@@ -206,3 +206,28 @@ nav ul {
   width: auto;
   margin-bottom: 25px;
 }
+html,
+body {
+  overflow-x: hidden;
+}
+
+body {
+  display: block;
+}
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+section {
+  width: 100%;
+}
+
+nav ul {
+  display: flex;
+  flex-direction: row;
+}
