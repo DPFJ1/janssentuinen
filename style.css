@@ -101,7 +101,13 @@ button:hover {
   background: #1c241f;
 }
 
-.intro,
+.intro {
+  min-height: 85vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
 .projects,
 .contact {
   max-width: 900px;
