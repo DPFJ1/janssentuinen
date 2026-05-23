@@ -186,10 +186,10 @@ textarea {
 }
 
 footer {
-  text-align: center;
-  padding: 30px;
-  background: #0f1411;
-  color: #aaa;
+    text-align: center;
+    padding: 20px;
+    font-size: 12px;
+    opacity: 0.6;
 }
 
 @media (max-width: 768px) {
