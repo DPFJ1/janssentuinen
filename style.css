@@ -42,7 +42,7 @@ nav ul {
 }
 
 nav a {
-  color: #f4f4f4;
+  color: #8ccf7e;
   text-decoration: none;
   font-size: 20px;
   font-weight: 600;
@@ -84,7 +84,7 @@ nav a:hover {
 .button,
 button {
   background: #0f1411;
-  color: #071007;
+  color: #f4f4f4;
   padding: 14px 26px;
   border-radius: 30px;
   text-decoration: none;
