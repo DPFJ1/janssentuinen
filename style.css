@@ -201,3 +201,8 @@ nav ul {
   height: 200px;
   width: auto;
 }
+.hero-logo {
+  height: 130px;
+  width: auto;
+  margin-bottom: 25px;
+}
