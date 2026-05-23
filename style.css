@@ -163,3 +163,7 @@ footer {
     grid-template-columns: 1fr;
   }
 }
+.logo {
+  height: 75px;
+  width: auto;
+}
