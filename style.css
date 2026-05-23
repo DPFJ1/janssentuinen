@@ -23,7 +23,8 @@ header {
 
 nav {
   max-width: 1200px;
-  margin: auto;
+  margin-top: 10px;
+  margin-bottom: 90px;
   padding: 6px 20px;
   display: flex;
   justify-content: space-between;
@@ -44,9 +45,9 @@ nav ul {
 nav a {
   color: #8ccf7e;
   text-decoration: none;
-  font-size: 20px;
+  font-size: 24px;
   font-weight: 600;
-  letter-spacing: 1.5px;
+  letter-spacing: 2px;
   text-transform: uppercase;
   transition: 0.3s ease;
   font-family: 'Segoe UI', sans-serif;
