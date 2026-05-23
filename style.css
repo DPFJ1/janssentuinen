@@ -81,16 +81,21 @@ nav a:hover {
   margin-bottom: 30px;
 }
 
-.button,
 button {
-  background: #0f1411;
+  width: 100%;
+  padding: 18px;
+  border-radius: 14px;
+  border: 1px solid #8ccf7e;
+  background: #151c17;
   color: #f4f4f4;
-  padding: 14px 26px;
-  border-radius: 30px;
-  text-decoration: none;
-  border: none;
-  font-weight: bold;
+  font-size: 18px;
+  font-weight: 600;
   cursor: pointer;
+  transition: 0.3s ease;
+}
+
+button:hover {
+  background: #1c241f;
 }
 
 .intro,
