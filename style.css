@@ -96,24 +96,24 @@ button {
 .intro,
 .projects,
 .contact {
-  max-width: 700px;
-  margin: 80px auto;
-  padding: 50px 35px;
+  max-width: 1000px;
+  margin: 120px auto;
+  padding: 80px 70px;
   text-align: center;
   background: #151c17;
   border: 1px solid #8ccf7e;
-  border-radius: 22px;
-  box-shadow: 0 0 35px rgba(140, 207, 126, 0.12);
+  border-radius: 28px;
+  box-shadow: 0 0 45px rgba(140, 207, 126, 0.14);
 }
 
 .contact h2 {
-  font-size: 42px;
-  margin-bottom: 20px;
+  font-size: 52px;
+  margin-bottom: 25px;
 }
 
 .contact p {
-  font-size: 18px;
-  margin-bottom: 10px;
+  font-size: 22px;
+  margin-bottom: 14px;
   color: #f4f4f4;
 }
 
