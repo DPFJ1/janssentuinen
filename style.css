@@ -42,14 +42,19 @@ nav ul {
 }
 
 nav a {
-  color: white;
+  color: #f4f4f4;
   text-decoration: none;
-  font-size: 18px;
-  font-weight: 500;
+  font-size: 17px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  transition: 0.3s ease;
+  font-family: 'Segoe UI', sans-serif;
 }
 
 nav a:hover {
   color: #8ccf7e;
+  transform: translateY(-2px);
 }
 
 .hero {
@@ -152,9 +157,11 @@ footer {
     gap: 15px;
   }
 
-  nav ul {
-    gap: 15px;
-  }
+nav ul {
+  display: flex;
+  gap: 45px;
+  list-style: none;
+}
 
   .hero h2 {
     font-size: 36px;
