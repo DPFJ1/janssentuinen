@@ -23,8 +23,8 @@ header {
 
 nav {
   max-width: 1200px;
-  margin-top: 10px;
-  margin-bottom: 90px;
+  margin-top: -20px;
+  margin-bottom: 120px;
   padding: 6px 20px;
   display: flex;
   justify-content: space-between;
