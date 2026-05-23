@@ -82,7 +82,7 @@ nav a:hover {
 
 .button,
 button {
-  background: #8ccf7e;
+  background: #0f1411;
   color: #071007;
   padding: 14px 26px;
   border-radius: 30px;
@@ -115,7 +115,7 @@ h2 {
 
 .photo-box {
   height: 250px;
-  background: #1d261f;
+  background: #0f1411;
   border: 1px solid #354536;
   border-radius: 18px;
   display: flex;
@@ -135,7 +135,7 @@ textarea {
   padding: 15px;
   border-radius: 10px;
   border: none;
-  background: #1d261f;
+  background: #0f1411;
   color: white;
 }
 
@@ -146,7 +146,7 @@ textarea {
 footer {
   text-align: center;
   padding: 30px;
-  background: #090c0a;
+  background: #0f1411;
   color: #aaa;
 }
 
