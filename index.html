@@ -65,12 +65,17 @@ Stuur direct een bericht
 
 <p>📍 <strong>Regio:</strong> Vierlingsbeek & omgeving</p>
 
-    <form>
-      <input type="text" placeholder="Naam" />
-      <input type="email" placeholder="E-mail" />
-      <textarea placeholder="Bericht"></textarea>
-      <button type="submit">Verstuur</button>
-    </form>
+<form action="https://formspree.io/f/xpqnljaw" method="POST">
+
+  <input type="text" name="naam" placeholder="Naam" />
+
+  <input type="email" name="email" placeholder="E-mail" />
+
+  <textarea name="bericht" placeholder="Bericht"></textarea>
+
+  <button type="submit">Verstuur</button>
+
+</form>
   </section>
 
   <footer>
