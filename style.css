@@ -247,5 +247,10 @@ nav ul {
 input,
 textarea,
 button {
+  font-family: 'Poppins', sans-serif;
   font-size: 15px;
+}
+textarea::placeholder,
+input::placeholder {
+  font-family: 'Poppins', sans-serif;
 }
