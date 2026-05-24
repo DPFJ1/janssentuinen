@@ -317,3 +317,6 @@ nav a {
 .whatsapp-float:hover {
   transform: scale(1.05);
 }
+nav a.active {
+  color: #25d366;
+}
