@@ -369,12 +369,15 @@ nav a.active {
   padding-top: 60px !important;
 }
 
+#over h2 {
+  margin-bottom: 50px !important;
+}
+
 .about-container {
   display: flex !important;
   align-items: flex-start !important;
   justify-content: center !important;
   gap: 60px !important;
-  width: 100% !important;
 }
 
 .about-container img {
@@ -385,6 +388,6 @@ nav a.active {
 }
 
 .about-text {
-  text-align: left !important;
   max-width: 600px !important;
+  text-align: left !important;
 }
