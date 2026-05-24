@@ -260,3 +260,8 @@ textarea::placeholder,
 input::placeholder {
   font-family: 'Poppins', sans-serif;
 }
+.about p {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.7;
+}
