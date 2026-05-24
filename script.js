@@ -22,3 +22,8 @@ window.addEventListener("scroll", () => {
     }
   });
 });
+const lightbox = GLightbox({
+  touchNavigation: true,
+  loop: true,
+  zoomable: true
+});
