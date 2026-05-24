@@ -443,3 +443,9 @@ nav a.active {
   transform: scale(1.03);
   opacity: 0.9;
 }
+footer {
+  padding: 30px;
+  text-align: center;
+  color: rgba(255,255,255,0.5);
+  border-top: 1px solid rgba(255,255,255,0.08);
+}
