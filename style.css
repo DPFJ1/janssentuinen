@@ -374,4 +374,17 @@ nav a.active {
   align-items: flex-start !important;
   justify-content: center !important;
   gap: 60px !important;
+  width: 100% !important;
+}
+
+.about-container img {
+  width: 320px !important;
+  height: 420px !important;
+  object-fit: cover !important;
+  border-radius: 20px !important;
+}
+
+.about-text {
+  text-align: left !important;
+  max-width: 600px !important;
 }
