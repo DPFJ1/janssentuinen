@@ -435,3 +435,11 @@ nav a.active {
   }
 
 }
+.gallery img {
+  transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.gallery img:hover {
+  transform: scale(1.03);
+  opacity: 0.9;
+}
