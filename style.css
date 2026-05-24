@@ -320,3 +320,6 @@ nav a {
 nav a.active {
   color: #25d366;
 }
+#over {
+  padding-top: 50px;
+}
