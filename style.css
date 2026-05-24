@@ -321,9 +321,27 @@ nav a.active {
   color: #25d366;
 }
 #over {
-  display: flex !important;
-  justify-content: flex-start !important;
   padding-top: 60px !important;
+}
+
+.about-container {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 60px;
+  width: 100%;
+}
+
+.about-container img {
+  width: 320px;
+  height: 420px;
+  object-fit: cover;
+  border-radius: 20px;
+}
+
+.about-text {
+  max-width: 600px;
+  text-align: left;
 }
 .about-container {
   display: flex;
