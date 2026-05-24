@@ -300,3 +300,20 @@ nav a {
   border-radius: 12px;
   cursor: pointer;
 }
+.whatsapp-float {
+  position: fixed;
+  right: 22px;
+  bottom: 22px;
+  background: #25d366;
+  color: white;
+  padding: 14px 18px;
+  border-radius: 999px;
+  font-weight: 700;
+  text-decoration: none;
+  box-shadow: 0 8px 25px rgba(0,0,0,0.35);
+  z-index: 9999;
+}
+
+.whatsapp-float:hover {
+  transform: scale(1.05);
+}
