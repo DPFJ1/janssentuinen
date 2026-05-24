@@ -321,5 +321,8 @@ nav a.active {
   color: #25d366;
 }
 #over {
-  padding-top: 50px;
+  display: flex !important;
+  flex-direction: column !important;
+  justify-content: flex-start !important;
+  padding-top: 60px !important;
 }
