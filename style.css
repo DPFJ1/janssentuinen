@@ -572,3 +572,22 @@ footer {
   align-items: center !important;
   justify-content: center !important;
 }
+#over {
+  min-height: 100vh !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
+
+.about {
+  margin: auto !important;
+
+  display: flex !important;
+  flex-direction: column !important;
+  justify-content: center !important;
+}
+
+.about h2 {
+  text-align: center !important;
+  margin-bottom: 35px !important;
+}
