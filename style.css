@@ -606,3 +606,9 @@ footer {
   max-width: 1050px !important;
   margin: 60px auto !important;
 }
+#projecten,
+#contact,
+#over .about {
+  width: 1050px !important;
+  max-width: 1050px !important;
+}
