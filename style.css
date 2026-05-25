@@ -702,3 +702,10 @@ section {
 #over .about-content {
     margin-bottom: -60px !important;
 }
+#over {
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: center !important;
+    padding-top: 40px !important;
+    padding-bottom: 40px !important;
+}
