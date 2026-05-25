@@ -258,3 +258,12 @@ h2 {
     padding: 14px 20px;
   }
 }
+.about,
+.projects,
+.contact,
+#over,
+#projecten,
+#contact {
+  margin-top: 120px !important;
+  margin-bottom: 120px !important;
+}
