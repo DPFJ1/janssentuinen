@@ -671,3 +671,6 @@ section {
   width: 1050px !important;
   max-width: 1050px !important;
 }
+.about-content {
+    margin-top: -25px !important;
+}
