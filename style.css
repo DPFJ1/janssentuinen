@@ -694,3 +694,11 @@ section {
 .about img {
     margin-bottom: -20px !important;
 }
+#over {
+    padding-bottom: 0px !important;
+    margin-bottom: 0px !important;
+}
+
+#over .about-content {
+    margin-bottom: -60px !important;
+}
