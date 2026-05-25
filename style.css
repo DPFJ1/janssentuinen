@@ -712,3 +712,9 @@ section {
 #over .about-content {
     margin-top: -40px !important;
 }
+.hero-content {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
