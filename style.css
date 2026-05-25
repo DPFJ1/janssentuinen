@@ -280,3 +280,6 @@ h2,
 .contact p {
   text-align: center;
 }
+html {
+  scroll-padding-top: 18vh;
+}
