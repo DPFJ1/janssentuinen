@@ -718,3 +718,39 @@ section {
   margin: 0 auto;
   text-align: center;
 }
+@media (max-width: 768px) {
+  html, body {
+    overflow-x: hidden;
+    width: 100%;
+  }
+
+  .hero {
+    width: 100%;
+    min-height: 100vh;
+    padding: 80px 20px;
+  }
+
+  .hero-content {
+    width: 100%;
+    max-width: 100%;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .hero-content img,
+  .logo {
+    max-width: 280px;
+    width: 80vw;
+    height: auto;
+    display: block;
+    margin: 0 auto 30px;
+  }
+
+  nav ul {
+    padding: 0;
+    margin: 0;
+    gap: 25px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
