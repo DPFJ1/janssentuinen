@@ -675,3 +675,7 @@ section {
   margin-right: auto !important;
   box-sizing: border-box !important;
 }
+#over {
+  width: 1050px !important;
+  max-width: 1050px !important;
+}
