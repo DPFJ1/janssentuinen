@@ -475,3 +475,10 @@ footer {
   border: 1px solid rgba(255,255,255,0.15) !important;
   border-radius: 25px !important;
 }
+.about-points p {
+  margin-bottom: 2px !important;
+  line-height: 1.2 !important;
+}
+.about-text p {
+  margin-bottom: 12px !important;
+}
