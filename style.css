@@ -324,3 +324,28 @@ button {
   border-radius: 12px !important;
   display: block !important;
 }
+.about-content,
+.about-container {
+  display: flex !important;
+  flex-direction: row !important;
+  align-items: flex-start !important;
+  justify-content: flex-start !important;
+  gap: 40px !important;
+}
+
+.about-content img,
+.about-container img {
+  width: 260px !important;
+  height: auto !important;
+  flex-shrink: 0 !important;
+}
+
+.about-text {
+  flex: 1 !important;
+  text-align: left !important;
+}
+
+.about-text p,
+.about-points p {
+  text-align: left !important;
+}
