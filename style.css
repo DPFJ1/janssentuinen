@@ -621,3 +621,16 @@ footer {
   width: 1050px !important;
   max-width: 1050px !important;
 }
+#over .about,
+#projecten,
+#contact {
+  width: 1050px !important;
+  max-width: 1050px !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  box-sizing: border-box !important;
+}
+
+#over .about {
+  transform: none !important;
+}
