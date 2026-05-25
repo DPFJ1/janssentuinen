@@ -540,3 +540,29 @@ footer {
 .contact textarea {
   padding: 14px !important;
 }
+.contact {
+  max-width: 1050px !important;
+  margin: 60px auto !important;
+  padding: 30px !important;
+  background: #111 !important;
+  border: 1px solid #b6ff9e !important;
+  border-radius: 25px !important;
+}
+
+.contact h2 {
+  margin-bottom: 20px !important;
+}
+
+.contact p {
+  margin-bottom: 10px !important;
+  line-height: 1.5 !important;
+}
+
+.contact form {
+  margin-top: 20px !important;
+}
+
+.contact input,
+.contact textarea {
+  padding: 14px !important;
+}
