@@ -378,3 +378,8 @@ button {
   object-fit: cover !important;
   border-radius: 12px !important;
 }
+.hero-logo {
+  width: 475px !important;
+  max-width: 90vw !important;
+  height: auto !important;
+}
