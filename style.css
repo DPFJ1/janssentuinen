@@ -709,3 +709,6 @@ section {
     padding-top: 40px !important;
     padding-bottom: 40px !important;
 }
+#over .about-content {
+    margin-top: -40px !important;
+}
