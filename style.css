@@ -655,3 +655,14 @@ section {
   box-sizing: border-box !important;
   transform: none !important;
 }
+.about,
+#projecten,
+#contact {
+  width: 1050px !important;
+  max-width: 1050px !important;
+
+  padding-left: 40px !important;
+  padding-right: 40px !important;
+
+  box-sizing: border-box !important;
+}
