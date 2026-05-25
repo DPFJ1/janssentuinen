@@ -674,3 +674,7 @@ section {
 .about-content {
     margin-top: -25px !important;
 }
+.about {
+    padding-bottom: 20px !important;
+    min-height: unset !important;
+}
