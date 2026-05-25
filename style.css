@@ -712,3 +712,46 @@ section {
 #over .about-content {
     margin-top: -40px !important;
 }
+/* Mobiel fix */
+html, body {
+  overflow-x: hidden;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Hero/text spacing mobiel */
+@media (max-width: 768px) {
+
+  .hero,
+  .about,
+  .contact,
+  .projects {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .hero-content {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+
+  h1 {
+    font-size: 2.2rem;
+    line-height: 1.1;
+  }
+
+  .project-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .project-card {
+    width: 100%;
+  }
+}
