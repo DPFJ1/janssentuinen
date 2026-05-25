@@ -566,3 +566,9 @@ footer {
 .contact textarea {
   padding: 14px !important;
 }
+#over {
+  min-height: 100vh !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
