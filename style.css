@@ -683,3 +683,14 @@ section {
     padding-bottom: 10px !important;
     min-height: auto !important;
 }
+.about-content {
+    align-items: flex-start !important;
+}
+
+.about {
+    padding-bottom: 0px !important;
+}
+
+.about img {
+    margin-bottom: -20px !important;
+}
