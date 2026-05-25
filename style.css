@@ -302,3 +302,25 @@ textarea,
 button {
   font-family: Arial, sans-serif !important;
 }
+.projects .gallery {
+  width: 100% !important;
+  max-width: 100% !important;
+  display: grid !important;
+  grid-template-columns: repeat(4, minmax(0, 1fr)) !important;
+  gap: 18px !important;
+  margin: 35px 0 0 0 !important;
+}
+
+.projects .gallery a {
+  width: 100% !important;
+  display: block !important;
+}
+
+.projects .gallery img {
+  width: 100% !important;
+  aspect-ratio: 1 / 1 !important;
+  height: auto !important;
+  object-fit: cover !important;
+  border-radius: 12px !important;
+  display: block !important;
+}
