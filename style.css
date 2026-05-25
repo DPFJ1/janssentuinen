@@ -297,3 +297,8 @@ html {
   border-radius: 12px;
   display: block;
 }
+input,
+textarea,
+button {
+  font-family: Arial, sans-serif !important;
+}
