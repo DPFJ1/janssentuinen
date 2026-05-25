@@ -454,71 +454,24 @@ footer {
   margin-bottom: 40px;
   color: rgba(255,255,255,0.7);
 }
-<section id="over" class="about">
-  <h2>OVER</h2>
-
-  <div class="about-content">
-
-    <img src="images/dennis.jpg" alt="Dennis Janssen">
-
-    <div class="about-text">
-
-      <p>
-        Mijn naam is Dennis Janssen, 33 jaar, en na meerdere jaren in Australië gewerkt te hebben als ontwerper en hovenier, besloot ik in 2025 deze passie mee terug te nemen en Janssen Tuinen op te richten.
-      </p>
-
-      <p>
-        Ik richt mij op moderne, strakke en duurzame tuinen waarbij kwaliteit en persoonlijk contact centraal staan. Van schuttingen en bestrating tot complete tuinrenovaties: ieder project wordt met zorg uitgevoerd.
-      </p>
-
-      <p>
-        Janssen Tuinen is gevestigd in Vierlingsbeek, Noord-Brabant.
-      </p>
-
-      <div class="about-points">
-        <p>✔️ Persoonlijk contact</p>
-        <p>✔️ Ontwerp & aanleg</p>
-        <p>✔️ Ervaring in Australië</p>
-        <p>✔️ Werkzaam in Noord-Brabant</p>
-        <p>✔️ Strakke afwerking</p>
-        <p>✔️ Vrijblijvende offerte</p>
-      </div>
-
-    </div>
-
-  </div>
-</section>
-<section id="over" class="about">
-  <h2>OVER</h2>
-
-  <div class="about-content">
-
-    <img src="images/dennis.jpg" alt="Dennis Janssen">
-
-    <div class="about-text">
-
-      <p>
-        Mijn naam is Dennis Janssen, 33 jaar, en na meerdere jaren in Australië gewerkt te hebben als ontwerper en hovenier, besloot ik in 2025 deze passie mee terug te nemen en Janssen Tuinen op te richten.
-      </p>
-
-      <p>
-        Ik richt mij op moderne, strakke en duurzame tuinen waarbij kwaliteit en persoonlijk contact centraal staan. Van schuttingen en bestrating tot complete tuinrenovaties: ieder project wordt met zorg uitgevoerd.
-      </p>
-
-      <p>
-        Janssen Tuinen is gevestigd in Vierlingsbeek, Noord-Brabant.
-      </p>
-
-      <div class="about-points">
-        <p>✔️ Persoonlijk contact</p>
-        <p>✔️ Ontwerp & aanleg</p>
-        <p>✔️ Ervaring in Australië</p>
-        <p>✔️ Werkzaam in Noord-Brabant</p>
-        <p>✔️ Strakke afwerking</p>
-        <p>✔️ Vrijblijvende offerte</p>
-      </div>
-
-    </div>
-
-  </div>
-</section>
+.about-content {
+  display: flex !important;
+  align-items: flex-start !important;
+  gap: 50px !important;
+}
+.about-content img {
+  width: 320px !important;
+  max-width: 320px !important;
+  height: auto !important;
+  display: block !important;
+  border-radius: 20px !important;
+  object-fit: cover !important;
+}
+.about {
+  max-width: 1200px !important;
+  margin: 100px auto !important;
+  padding: 60px !important;
+  background: #111 !important;
+  border: 1px solid rgba(255,255,255,0.15) !important;
+  border-radius: 25px !important;
+}
