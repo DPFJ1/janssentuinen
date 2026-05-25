@@ -843,3 +843,58 @@ section {
     grid-template-columns: 1fr !important;
   }
 }
+@media (max-width: 768px) {
+  html, body {
+    width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+
+  section,
+  header,
+  nav,
+  .hero,
+  .about,
+  .projects,
+  .contact,
+  .about-content,
+  .project-grid,
+  .project-card,
+  form {
+    width: 100% !important;
+    max-width: 100% !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+  }
+
+  .about,
+  .projects,
+  .contact {
+    padding: 35px 20px !important;
+  }
+
+  img,
+  input,
+  textarea,
+  button {
+    max-width: 100% !important;
+  }
+
+  a,
+  p,
+  h1,
+  h2,
+  h3,
+  li {
+    max-width: 100%;
+    overflow-wrap: break-word;
+  }
+
+  .project-grid {
+    grid-template-columns: 1fr !important;
+  }
+}
