@@ -222,9 +222,12 @@ footer {
     padding: 28px 20px;
   }
 
-  h2 {
-    font-size: 42px;
-  }
+h2 {
+  font-size: 42px;
+  margin-bottom: 30px;
+  color: #8ccf7e;
+  text-align: center;
+}
 
   .about-content,
   .about-container {
