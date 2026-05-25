@@ -383,3 +383,6 @@ button {
   max-width: 90vw !important;
   height: auto !important;
 }
+#contact {
+  scroll-margin-top: 140px;
+}
