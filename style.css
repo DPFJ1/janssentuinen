@@ -459,3 +459,22 @@ button {
   margin-top: 20px;
 }
 }
+@media (max-width: 768px) {
+  #over .about-content {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+  }
+
+  #over .about-content a,
+  #over .about-content img {
+    width: 100% !important;
+    max-width: 320px !important;
+  }
+
+  #over .about-text {
+    width: 100% !important;
+    margin-top: 25px !important;
+    text-align: left !important;
+  }
+}
