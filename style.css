@@ -384,8 +384,8 @@ button {
   height: auto !important;
 }
 #contact {
-  scroll-margin-top: 20px;
+  scroll-margin-top: -20px;
 }
 #projecten {
-  scroll-margin-top: 20px;
+  scroll-margin-top: -20px;
 }
