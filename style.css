@@ -482,3 +482,35 @@ footer {
 .about-text p {
   margin-bottom: 12px !important;
 }
+.about {
+  max-width: 1050px !important;
+  margin: 60px auto !important;
+  padding: 30px !important;
+  background: #111 !important;
+  border: 1px solid #b6ff9e !important;
+  border-radius: 25px !important;
+}
+
+.about h2 {
+  margin-bottom: 30px !important;
+}
+
+.about-content {
+  gap: 35px !important;
+}
+
+.about-content img {
+  width: 260px !important;
+}
+
+.about-text p {
+  margin-bottom: 10px !important;
+  line-height: 1.5 !important;
+  font-size: 0.95rem !important;
+}
+
+.about-points p {
+  margin-bottom: 4px !important;
+  line-height: 1.2 !important;
+  font-size: 0.92rem !important;
+}
