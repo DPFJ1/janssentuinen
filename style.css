@@ -281,7 +281,7 @@ h2,
   text-align: center;
 }
 html {
-  scroll-padding-top: 18vh;
+  scroll-padding-top: 8vh;
 }
 .gallery {
   display: grid;
