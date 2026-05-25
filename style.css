@@ -634,3 +634,11 @@ footer {
 #over .about {
   transform: none !important;
 }
+section {
+  width: 1050px !important;
+  max-width: 1050px !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  box-sizing: border-box !important;
+  transform: none !important;
+}
